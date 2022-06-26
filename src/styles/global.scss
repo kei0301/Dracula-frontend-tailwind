@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "EB Garamond";
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+}
+
+body {
+  background-image: url("../assets/img/bg.png");
+}
+
+.nav-bg{
+  background-color: #12101D;
+}
+
+.select-border{
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+  padding: 0px 30px;
+}
+
+.Mp-0-5{
+  padding: 0px 7%;
+}
+
+.Mp5{
+  padding: 24px 7%;
+}
+
+.perW30{
+  width: 30%;
+}
+
+.perH60vh{
+  height: 60vh;
+}
+
+.main {
+  border-radius: 10px;
+  background-image: linear-gradient(315.09deg, #17C1F6 0%, rgba(223, 20, 154, 1) 133.13%);
+  padding: 3px;
+}
+
+.inner-wrapper {
+  width: 100%;
+  height: 100%;
+  background: #12101D;
+  border-radius: 8px;
+  background-image: linear-gradient(143.3deg, rgba(223, 20, 154, 0.21) 0%, rgba(223, 20, 154, 0) 33.55%), linear-gradient(232.25deg, rgba(127, 66, 186, 0.56) 0%, rgba(127, 66, 186, 0) 24.42%), linear-gradient(315deg, rgba(32, 179, 240, 0.37) -1.53%, rgba(32, 179, 240, 0) 22.36%);
+}
